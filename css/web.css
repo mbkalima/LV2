@@ -1,0 +1,101 @@
+/*Start global*/
+.container {
+    width: 1200px;
+
+    margin: auto;
+}
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+body {
+
+}
+/*end global*/
+/*start navbar*/
+.navbar{
+    font-size: 20px;
+    height: 0;
+    color: #ffffff;
+    position: relative;
+    z-index: 3;
+}
+.navbar .brand{
+    float: left;
+    width: 40%;
+    text-transform: uppercase;
+}
+.navbar .links{
+    width: 60%;
+    float: left;
+    margin-top: 15px;
+
+}
+.navbar .links li{
+    display: inline-block;
+    padding: 10px 0 ;
+    margin:0 10px;
+    border-bottom: 2px solid transparent;
+}
+.navbar .links li a{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.navbar .links li.active,
+.navbar .links li:hover
+{
+
+    border-bottom: 2px solid #178c19;
+    cursor: pointer;
+}
+.navbar .links li.active a,
+.navbar .links li a:hover
+{
+    color: #178c19;
+}
+
+/*end navigation*/
+/*start header*/
+.header{
+    background:url("../images/bg-header-eiffel.jpg");
+    position: relative;
+    width: 100%;
+    -webkit-background-size:cover;
+    background-size:cover ;
+}
+.header .overlay{
+    background-color:rgba(0,0,0,0.7);
+    position:absolute;
+    top:0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    color: #ffffff;
+    z-index: 1;
+}
+.header .overlay .bx-viewport{
+    background: #000;
+    
+}
+/*header  header*/
+/* start Our services*/
+.services{
+    height: 1000px;
+}
+
+/* End  Our services*/
+
+/*start my framework*/
+.clearfix{
+    clear: both;
+}
+/*start my framework*/
